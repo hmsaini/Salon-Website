@@ -296,7 +296,7 @@ navigation
       padding: 25px 12px; } }
 
 .navbar.white-nav-top {
-  padding: 10px 80px 10px 80px;
+  padding: 0px 80px 0px 80px;
   transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
@@ -304,7 +304,7 @@ navigation
   -o-transition: all .3s linear; }
 
 .navbar-brand {
-  padding: 13px 15px;
+  padding: 3px 5px;
   font-size: 1.8rem; }
 
 #hov:hover {
@@ -525,6 +525,10 @@ bootstrap media queries
 @media (max-width: 37.5em) {
   .heading-primary--sub {
     letter-spacing: .4rem; } }
+
+.nav-logo {
+  width: 15rem;
+  height: 8rem; }
 
 .my-row {
   max-width: 114rem;
