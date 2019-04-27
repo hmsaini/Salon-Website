@@ -1,0 +1,32 @@
+.section-about-us {
+  background-color: var(--color-white);
+  padding: 12rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 7rem 2rem;
+  }
+}
+
+.section-pricing {
+  padding: 12rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 7rem 2rem;
+  }
+}
+
+#portfolio {
+  padding: 2rem 0 22rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 1rem 0 16rem 0;
+  }
+}
+
+#contact {
+  padding: 15rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 10rem 2rem;
+  }
+}

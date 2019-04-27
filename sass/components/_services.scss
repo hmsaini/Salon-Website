@@ -1,0 +1,228 @@
+/*
+==============================================
+services 01
+=============================================
+*/
+.section-body {
+    background-image: url(../images/home/services/beauty-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 150vh;
+    padding: 7rem 0;
+    position: relative;
+
+}
+
+#services-01 img {
+    margin: 6rem 0;
+    width: 50rem;
+    height: 38rem;
+}
+
+.service {
+    margin: 3.5rem 0;
+}
+
+.service .icon {
+    font-size: 4.2rem;
+    margin: 0;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+
+.service:hover .icon {
+    color: #f4c613;
+    transform: translateX(-2rem);
+    -webkit-transform: translateX(-2rem);
+    -moz-transform: translateX(-2rem);
+    -ms-transform: translateX(-2rem);
+    -o-transform: translateX(-2rem);
+}
+
+.service h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #f4c613;
+    margin: 0 0 6px 0;
+}
+
+.service:hover h5 {
+    color: #212226;
+}
+
+.service h4 {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.service p {
+    line-height: normal;
+}
+
+/*
+==============================================
+services 02 (Responsive Tabs)
+=============================================
+*/
+#services-02 {
+    background: #f4f4f4;
+    padding: 12rem 0;
+}
+
+#services-tabs ul {
+    margin-bottom: 4rem;
+}
+
+#services-tabs ul li {
+    padding: .5rem 3rem;
+}
+
+#services-tabs ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.3rem;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Tab active state */
+#services-tabs ul li.r-tabs-state-active a {
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    transition: border-color .3s linear;
+    -webkit-transition: border-color .3s linear;
+    -moz-transition: border-color .3s linear;
+    -ms-transition: border-color .3s linear;
+    -o-transition: border-color .3s linear;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+    background: #fff;
+    min-height: 47rem;
+}
+
+.service-tab img {
+    width: 100%;
+    min-height: 47rem;
+    max-height: 47rem;
+    margin: 0 auto;
+}
+
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 5.9rem 3rem;
+    min-height: 38rem;
+}
+
+.service-tab h2 {
+    font-size: 4.8rem;
+    color: #bbb;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.service-tab h3 {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+.service-tab p {
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    /* services 02 */
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 300px;
+    }
+
+    .service-tab p {
+        line-height: 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+  
+   /* services 02 */
+   .r-tabs-accordion-title{
+       text-align: center;
+       margin-bottom: 10px;
+   }
+   .r-tabs-accordion-title a{
+       font-family: "Raleway", sans-serif;
+       font-size: 13px;
+       color: #212226;
+       text-transform: uppercase;
+       font-weight: 400;
+       padding: 0;
+       text-decoration: none;
+   }
+   /* Tab active state */
+   .r-tabs-accordion-title.r-tabs-state-active a{
+       color: #f4c613;
+       font-weight: 700;
+       border-bottom: 3px solid #f4c613;
+       transition: border-color .3s linear;
+   }
+   }
+
+   /* extra small devices (landscape phones & portrait tablets) */
+@media(max-width:767px){
+    /* services 01 */
+    /* horizontal heading */
+    .horizontal-heading {
+    margin-bottom: 40px;
+    }
+    .horizontal-heading h2{
+    font-size: 30px;
+    }
+    #services-01 img{
+        margin: 35px 0;
+    }
+    .service, .service .icon{
+        text-align: center;
+    }
+    .service h4{
+        font-size: 18px;
+    }
+    /* services 02 */
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .r-tabs-accordion-title a{
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    /* Tab active state */
+    .r-tabs-accordion-title.r-tabs-state-active a{
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        transition: border-color .3s linear;
+    }
+    #services-tabs .tab-bg{
+        text-align: center;
+        padding: 40px 30px;
+    }
+    #services-tabs  h2{
+        font-size: 40px;
+    }
+    #services-tabs  h3{
+        font-size: 28px;
+    }
+    }
