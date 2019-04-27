@@ -14,7 +14,7 @@ pricing
     -o-transition: all .4s linear;
 
     &:hover {
-        background: var(--color-secondary);
+        background: var(--color-primary);
     }
 
     @media only screen and (max-width: $bp-medium) {
@@ -23,7 +23,7 @@ pricing
 }
 
 .pricing-table .type h4 {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-size: 2.4rem;
     margin-bottom: 2.4rem;
 }
@@ -86,7 +86,7 @@ pricing
     width: 2.4rem;
 }
 
-.pricing-table .btn-secondary,
+.pricing-table .btn-primary,
 .pricing-table.black .btn-white {
     width: 96%;
 }
@@ -99,14 +99,14 @@ pricing
     color: #fff;
 }
 
-.pricing-table:hover .btn-secondary {
+.pricing-table:hover .btn-primary {
     background: #fff;
     color: #212226;
     border: 1px solid #fff;
 }
 
-.pricing-table .btn-secondary:hover,
-.pricing-table .btn-secondary:focus {
+.pricing-table .btn-primary:hover,
+.pricing-table .btn-primary:focus {
     background: #212226;
     color: #fff;
     border: 1px solid #212226;
@@ -123,5 +123,5 @@ pricing
 }
 
 .pricing-table.black:hover {
-    background: var(--color-secondary);
+    background: var(--color-primary);
 }

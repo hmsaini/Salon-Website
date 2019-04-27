@@ -171,7 +171,7 @@ team
   font-size: 2.5rem;
   width: 4rem;
   height: 4rem;
-  background-color: var(--color-primary);
+  background-color: var(--color-grey-dark-1);
   text-align: center;
   color: #fff;
   line-height: 4rem;
@@ -268,7 +268,7 @@ statements
   margin-top: 5rem !important; }
 
 .u-margin-top-huge {
-  margin-top: 10rem !important; }
+  margin-top: 20rem !important; }
 
 .my-container {
   max-width: 120rem;
@@ -460,7 +460,7 @@ bootstrap media queries
 @media (max-width: 767px) {
   /* navigation */
   .navbar.white-nav-top {
-    padding: 20px 10px; } }
+    padding: 0px 10px; } }
 
 @media (max-width: 767px) {
   /* show mobile nav open btn */
@@ -608,6 +608,19 @@ bootstrap media queries
   width: 70%;
   margin-left: auto;
   margin-right: auto; }
+
+.header-threading {
+  background-image: url(../images/threading/header/header-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 120vh;
+  position: relative; }
+  @media only screen and (max-width: 68.75em) {
+    .header-threading {
+      height: 110vh; } }
+  @media only screen and (max-width: 56.25em) {
+    .header-threading {
+      height: 100vh; } }
 
 .hod-img {
   min-height: 22rem; }
@@ -881,7 +894,7 @@ stats
 =============================================
 */
 #stats .content-box-md {
-  background: rgba(0, 0, 0, 0.8); }
+  background: var(--color-primary-dark); }
 
 .vertical-heading {
   margin-bottom: 50px; }
@@ -890,7 +903,7 @@ stats
   color: #fff; }
 
 .stats-item {
-  background: rgba(61, 68, 68, 0.6);
+  background: var(--color-primary-light);
   border-radius: 4px;
   min-height: 17rem;
   padding: 2.5rem 5rem;
@@ -902,7 +915,7 @@ stats
 
 .stats-item i {
   font-size: 42px;
-  color: #f4c613;
+  color: #fff;
   margin: 0 0 6px 0;
   transition: all .4s linear; }
   @media only screen and (max-width: 56.25em) {
@@ -922,11 +935,11 @@ stats
   margin: 0; }
 
 .stats-item:hover {
-  background: #f4c613; }
+  background: var(--color-primary-light); }
 
 .stats-item:hover i {
   transform: translateY(-12px);
-  color: #212226; }
+  color: #fff; }
 
 /*
 ==============================================
@@ -943,13 +956,13 @@ pricing
   -ms-transition: all .4s linear;
   -o-transition: all .4s linear; }
   .pricing-table:hover {
-    background: var(--color-secondary); }
+    background: var(--color-primary); }
   @media only screen and (max-width: 56.25em) {
     .pricing-table {
       margin-bottom: 3rem; } }
 
 .pricing-table .type h4 {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-size: 2.4rem;
   margin-bottom: 2.4rem; }
 
@@ -1000,7 +1013,7 @@ pricing
 .pricing-table ul.package li i {
   width: 2.4rem; }
 
-.pricing-table .btn-secondary,
+.pricing-table .btn-primary,
 .pricing-table.black .btn-white {
   width: 96%; }
 
@@ -1010,13 +1023,13 @@ pricing
 .pricing-table:hover ul.package {
   color: #fff; }
 
-.pricing-table:hover .btn-secondary {
+.pricing-table:hover .btn-primary {
   background: #fff;
   color: #212226;
   border: 1px solid #fff; }
 
-.pricing-table .btn-secondary:hover,
-.pricing-table .btn-secondary:focus {
+.pricing-table .btn-primary:hover,
+.pricing-table .btn-primary:focus {
   background: #212226;
   color: #fff;
   border: 1px solid #212226; }
@@ -1030,7 +1043,7 @@ pricing
   color: #fff; }
 
 .pricing-table.black:hover {
-  background: var(--color-secondary); }
+  background: var(--color-primary); }
 
 /*
 ==============================================
@@ -1222,7 +1235,7 @@ testimonials
   margin-bottom: 5rem; }
 
 #testimonial-slider {
-  background: var(--color-secondary);
+  background: var(--color-primary-light);
   top: -12rem;
   padding-bottom: 2rem; }
   @media only screen and (max-width: 68.75em) {
@@ -1387,3 +1400,44 @@ ul.social-list li:nth-child(3) a:hover {
   @media only screen and (max-width: 56.25em) {
     #contact {
       padding: 10rem 2rem; } }
+
+.section-price {
+  padding: 12rem 0;
+  background-image: url(../images/threading/price/price-bg.png); }
+  @media only screen and (max-width: 56.25em) {
+    .section-price {
+      padding: 7rem 2rem; } }
+
+.item__price {
+  padding-bottom: 2rem; }
+  .item__price-value {
+    float: right; }
+
+.section-products {
+  padding: 12rem 0;
+  background-color: var(--color-grey-light-1); }
+  @media only screen and (max-width: 56.25em) {
+    .section-products {
+      padding: 7rem 2rem; } }
+
+.img-box {
+  height: 35rem;
+  background-color: #fff;
+  padding: 3.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px; }
+
+.img-product {
+  height: 24rem;
+  margin-left: 4rem; }
+  @media only screen and (max-width: 56.25em) {
+    .img-product {
+      margin-left: 15rem;
+      margin-right: auto; } }
+
+.section-stats {
+  padding: 12rem 0;
+  background-color: var(--color-primary); }
+  @media only screen and (max-width: 56.25em) {
+    .section-stats {
+      padding: 7rem 2rem; } }

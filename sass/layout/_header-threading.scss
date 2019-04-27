@@ -1,0 +1,16 @@
+.header-threading{
+    background-image: url(../images/threading/header/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 120vh;
+    position: relative;
+
+    @media only screen and (max-width: $bp-large) {
+        height: 110vh;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        height: 100vh;
+    }
+
+}

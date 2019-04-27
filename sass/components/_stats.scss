@@ -6,7 +6,7 @@ stats
 
 
 #stats .content-box-md {
-    background: rgba(0, 0, 0, .8);
+    background: var(--color-primary-dark);
 }
 
 .vertical-heading {
@@ -18,7 +18,7 @@ stats
 }
 
 .stats-item {
-    background: rgba(61, 68, 68, 0.6);
+    background: var(--color-primary-light);
     border-radius: 4px;
     min-height: 17rem;
     padding: 2.5rem 5rem;
@@ -32,7 +32,7 @@ stats
 
 .stats-item i {
     font-size: 42px;
-    color: #f4c613;
+    color: #fff;
     margin: 0 0 6px 0;
     transition: all .4s linear;
 
@@ -57,10 +57,10 @@ stats
 }
 
 .stats-item:hover {
-    background: #f4c613;
+    background: var(--color-primary-light);
 }
 
 .stats-item:hover i {
     transform: translateY(-12px);
-    color: #212226;
+    color: #fff;
 }

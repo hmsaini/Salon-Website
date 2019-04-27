@@ -107,8 +107,8 @@ $(function () {
         // alert('hello');
         this.destroy();
     }, {
-        offset: 'bottom-in-view'
-    });
+            offset: 'bottom-in-view'
+        });
 });
 /* =============================================
      Responsive Tabs
@@ -169,7 +169,7 @@ $(function () {
         loop: true,
         autoplayhoverpause: true,
         nav: true,
-        dots:false,
+        dots: false,
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
     });
 });
@@ -227,7 +227,7 @@ $(function () {
     });
 
     function showHideNav() {
-        if ($(window).scrollTop()>50) {
+        if ($(window).scrollTop() > -15) {
             $("nav").addClass("white-nav-top");
 
             // show dark logo
