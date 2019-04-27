@@ -223,14 +223,13 @@ statements
 .statement {
     background-image: url(../images/home/statement/statement-bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
 
 }
 
 .statement .content-box-lg {
-    padding: 12rem 0;
-    background: rgba(0, 0, 0, .6);
+    padding: 15rem 0;
 }
 
 #tech-statement h3 {

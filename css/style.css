@@ -228,12 +228,11 @@ statements
 .statement {
   background-image: url(../images/home/statement/statement-bg.jpg);
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .statement .content-box-lg {
-  padding: 12rem 0;
-  background: rgba(0, 0, 0, 0.6); }
+  padding: 15rem 0; }
 
 #tech-statement h3 {
   color: #fff;
@@ -1293,6 +1292,7 @@ ul.office-details li i {
 #contact-right {
   padding: 2.5rem 3rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1358,14 +1358,15 @@ ul.social-list li:nth-child(3) a:hover {
   border-color: transparent; }
 
 .section-about-us {
-  background-color: var(--color-white);
+  background-image: url(../images/home/about/about.jpg);
   padding: 12rem 0; }
   @media only screen and (max-width: 56.25em) {
     .section-about-us {
       padding: 7rem 2rem; } }
 
 .section-pricing {
-  padding: 12rem 0; }
+  padding: 12rem 0;
+  background-image: url(../images/home/pricing/pricing-bg.jpg); }
   @media only screen and (max-width: 56.25em) {
     .section-pricing {
       padding: 7rem 2rem; } }
@@ -1377,7 +1378,8 @@ ul.social-list li:nth-child(3) a:hover {
       padding: 1rem 0 16rem 0; } }
 
 #contact {
-  padding: 15rem 0; }
+  padding: 15rem 0;
+  background-image: url(../images/home/contact/contact-bg.jpg); }
   @media only screen and (max-width: 56.25em) {
     #contact {
       padding: 10rem 2rem; } }
