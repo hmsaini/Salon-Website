@@ -1,7 +1,12 @@
 .section-price {
     padding: 12rem 0;
-    background-image: url(../images/threading/price/price-bg.png);
-    // background-color: #fff;
+    background-image: linear-gradient(to right bottom,
+    rgba(0,0,0,.4),
+    rgba(0,0,0,.2)),
+    url(../images/threading/price/price-bg.png);
+    background-position: top;
+    position: relative;
+   
 
     @media only screen and (max-width: $bp-medium) {
         padding: 7rem 2rem;

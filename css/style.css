@@ -231,6 +231,16 @@ statements
   background-repeat: no-repeat;
   background-position: center center; }
 
+.statement-pricing {
+  background-image: url(../images/threading/statement/statement-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.statement-pricing .content-box-lg {
+  padding: 15rem 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+
 .statement .content-box-lg {
   padding: 15rem 0; }
 
@@ -244,6 +254,9 @@ statements
   color: #f4c613;
   font-family: "Raleway", sans-serif;
   margin-top: .8rem; }
+
+.white {
+  color: #fff; }
 
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
@@ -1403,7 +1416,9 @@ ul.social-list li:nth-child(3) a:hover {
 
 .section-price {
   padding: 12rem 0;
-  background-image: url(../images/threading/price/price-bg.png); }
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/threading/price/price-bg.png);
+  background-position: top;
+  position: relative; }
   @media only screen and (max-width: 56.25em) {
     .section-price {
       padding: 7rem 2rem; } }

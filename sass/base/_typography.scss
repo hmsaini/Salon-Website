@@ -228,6 +228,20 @@ statements
 
 }
 
+.statement-pricing {
+    background-image: url(../images/threading/statement/statement-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+
+.statement-pricing .content-box-lg{
+    padding: 15rem 0;
+    background-color: rgba(0,0,0,.6);
+}
+
 .statement .content-box-lg {
     padding: 15rem 0;
 }
@@ -245,3 +259,6 @@ statements
     margin-top: .8rem;
 }
 
+.white{
+    color:#fff;
+}
