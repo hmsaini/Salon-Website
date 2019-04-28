@@ -42,7 +42,7 @@ ul.navbar-nav>li.nav-item>a.nav-link {
     font-family: "Raleway", sans-serif;
     color: #e77785;
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 400;
     /* text-transform: uppercase; */
     letter-spacing: 1px;
 }
@@ -85,7 +85,7 @@ ul.navbar-nav>li.nav-item>a.nav-link:focus {
 /* Scroll spy active state */
 .white-nav-top ul.navbar-nav>li.nav-item>a.active.nav-link {
     color: var(--color-primary);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /*

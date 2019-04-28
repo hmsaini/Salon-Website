@@ -1,53 +1,54 @@
-.section-price{
-    padding:12rem 0;
+.section-price {
+    padding: 12rem 0;
     background-image: url(../images/threading/price/price-bg.png);
+    // background-color: #fff;
 
     @media only screen and (max-width: $bp-medium) {
         padding: 7rem 2rem;
-      }
+    }
 }
 
-.item__price{
+.item__price {
 
-   padding-bottom:2rem;
+    padding-bottom: 2rem;
 
-    &-value{
-        float:right;
+    &-value {
+        float: right;
     }
-    }
+}
 
-    .section-products{
-        padding:12rem 0;
-        background-color:var(--color-grey-light-1);
-    
-        @media only screen and (max-width: $bp-medium) {
-            padding: 7rem 2rem;
-          }
-    }
+.section-products {
+    padding: 12rem 0;
+    background-color: var(--color-grey-light-1);
 
-    .img-box{
-        height:35rem;
-        background-color: #fff;
-        padding:3.5rem;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    @media only screen and (max-width: $bp-medium) {
+        padding: 7rem 2rem;
+    }
+}
+
+.img-box {
+    height: 35rem;
+    background-color: #fff;
+    padding: 3.5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
     border-radius: 6px;
-    }
+}
 
-    .img-product{
-        height:24rem;
-       margin-left:4rem;
+.img-product {
+    height: 24rem;
+    margin-left: 4rem;
 
-       @media only screen and (max-width: $bp-medium) {
-        margin-left:15rem;
+    @media only screen and (max-width: $bp-medium) {
+        margin-left: 15rem;
         margin-right: auto;
-      }
     }
+}
 
-    .section-stats{
-        padding: 12rem 0;
-        background-color: var(--color-primary);
+.section-stats {
+    padding: 12rem 0;
+    background-color: var(--color-primary);
 
-        @media only screen and (max-width: $bp-medium) {
-            padding: 7rem 2rem;
-          }
+    @media only screen and (max-width: $bp-medium) {
+        padding: 7rem 2rem;
     }
+}
